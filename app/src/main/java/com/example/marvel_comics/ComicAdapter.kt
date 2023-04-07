@@ -36,7 +36,8 @@ class ComicAdapter(private val comicList: List<String>, private val comicNameLis
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val name = comicNameList[position]
-        val description = comicDes[position]
+        val description = if(comicDes[position] == "null") "Description not provided" else comicDes[position]
+
         val textViewName = holder.comicName
         textViewName.setText(name)
         val textViewDes = holder.comicDescription
