@@ -49,6 +49,8 @@ GIF created with ScreenToGif
 ## Notes
 
 Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+In this unit, I learned more about the RecycleView function. Although I initially had trouble wrapping my head around this concept, through this project, 
+I feel like I was able to learn about the adapter and RecycleView indepth.
 
 ## License
 
